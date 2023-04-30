@@ -3,7 +3,7 @@ console.log(num); */
 
 const theMaw = document.getElementById('maw');
 const subBut = document.getElementById('subBut');
-const boxOut = document.getElementById('boxOut');
+const boxOut = document.getElementById('factResult');
 
 function getValue() {
     let value = theMaw.value;
