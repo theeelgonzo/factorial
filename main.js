@@ -6,13 +6,14 @@ const subBut = document.getElementById('subBut');
 const boxOut = document.getElementById('factResult');
 
 function getValue() {
-    let value = theMaw.value;
+    let value = Number(theMaw.value);
     console.log(`Your value is ${value}`);
     return value;
 }
 
 function factorial(number) {
     if (typeof number !== 'number') {
+        console.log(typeof number);
         console.log('Write a number....or else, yark-o!');
     } else if (number == 0) {
         let result = 1;
