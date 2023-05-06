@@ -15,7 +15,8 @@ body {
 
 .boxOut {
     margin: auto;
-    background-color: aqua;
+    /*background-color: aqua;*/
+    background-image: linear-gradient(to right, blue, aqua);
     min-width: 4em;
     min-height: 4em;
     max-width: fit-content;
