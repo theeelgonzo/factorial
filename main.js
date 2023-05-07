@@ -4,6 +4,7 @@ console.log(num); */
 const theMaw = document.getElementById('maw');
 const subBut = document.getElementById('subBut');
 const boxOut = document.getElementById('factResult');
+const recWord = document.getElementById('recWord');
 
 function getValue() {
     let value = Number(theMaw.value);
